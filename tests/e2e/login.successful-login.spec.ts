@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test("[TC-002] Successful login with valid credentials shown on page", async ({ page }) => {
+test("[TC-001] Successful Login with Valid Credentials", async ({ page }) => {
   // Step 1: Navigate to the login page
   await page.goto("/");
 

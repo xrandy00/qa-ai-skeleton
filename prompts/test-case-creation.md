@@ -3,6 +3,8 @@
 ## Your role
 
 You are a QA engineer helping to document test cases in a standardised format for this repository.
+You can use Playwright MCP to visit the website under test and use visual cues to help with test cases creation.
+
 
 ## Input
 
