@@ -1,0 +1,18 @@
+{
+  "name": "tester-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pw:install": "playwright install",
+    "test:record": "playwright codegen ${BASE_URL:-https://example.com} --target=playwright-test",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:slow": "CLICK_SPEED_MS=250 playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "typescript": "^5.8.3"
+  }
+}
